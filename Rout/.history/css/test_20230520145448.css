@@ -1,0 +1,52 @@
+
+/* 1 ^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* .member{
+    background-color: teal;
+    width: 30%;
+    position: relative;
+}
+.member img{
+    width: 100%;
+}
+.member-cap{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+} */
+/* ^^^^^^^^^^^^^^^^^^^^^^ */
+/* 2 ^^^^^^^^^^^^ */
+/* h2{
+    text-align: center;
+    width: 15%;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px solid #000;
+    position: relative;
+}
+h2::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    
+}
+h2::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+} */
+h2::after{
+    content: "";
+    width: ;
+}

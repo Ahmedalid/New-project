@@ -1,0 +1,93 @@
+
+/* 1 ^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* .member{
+    background-color: teal;
+    width: 30%;
+    position: relative;
+}
+.member img{
+    width: 100%;
+}
+.member-cap{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+} */
+/* ^^^^^^^^^^^^^^^^^^^^^^ */
+/* 2 ^^^^^^^^^^^^ */
+/* h2{
+    text-align: center;
+    width: 15%;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px solid #000;
+    position: relative;
+}
+h2::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    
+}
+h2::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+} */
+/* 2 */
+/* h2{
+    text-align: center;
+    color: red;
+
+}
+h2::before{
+    content: "";
+    background-color: black;
+    width: 40%;
+    position: absolute;
+    height: 2px;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+}
+h2::after{
+    content: "";
+    background-color: black;
+    width: 40%;
+    position: absolute;
+    height: 2px;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+} */
+/* 3 */
+.members{
+    background-color: tomato;
+}
+.member{
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: aquamarine;
+}

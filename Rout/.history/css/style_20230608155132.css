@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+}
+nav{
+    box-shadow: 0px 16px 43px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+       height: 80px;
+       position: sticky;
+       top: 0;
+       left: 0;
+       overflow: auto;
+       background-color: white;
+}
+.div-nav{
+     margin: auto 110px;
+    display: flex;
+   margin-top: 30px;
+    justify-content: space-between;
+}
+.container{
+    margin: auto 110px;
+}
+.nav-item ul li{
+    list-style: none;
+  
+    width: 100%;
+ 
+}
+.nav-item ul li a{
+     text-decoration: none; 
+     color: black;
+     padding: 20px;
+     outline: none;
+     transition: 0.5;
+     font-weight: 400;
+}
+.nav-item ul li a:hover{
+    border-bottom: 2px solid red;
+}
+.nav-item ul {
+          display: flex;
+    justify-content: space-between;
+   
+}
+.nav-logo h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.home-actiev{
+    border-bottom: 2px solid red;
+    font-weight: bold;
+}
+.nav-icon span i{
+    font-size: 30px;
+}
+/* End NavBar */
+/* Start Header */
+/* Start Header */
+.div-header{
+    display: flex;
+}
+header{
+    background-color: #eeeeee;
+    overflow: auto;
+    height: 100vh;
+}
+.content-header{
+  margin-top: 160px;
+}
+img{
+    width: 100%;
+}
+.mt{
+    margin-top: 25px;
+}
+.li{
+    letter-spacing: 5px;
+}
+.text-color{
+    color: #7f7f90;
+}
+.d-flex{
+    display: flex;
+}
+.btn-Boolatable{
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.headphones{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid red;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Video{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Video:hover{
+    color: red;
+}
+.icone-headphones{
+    color: black;
+    list-style: none;
+}
+
+.text-center{
+    text-align: center;
+    /* margin-top: 50px; */
+}
+.text-color{
+    color: red;
+}
+.our-section{
+    font-size: 27px;
+}
+.d-bettwen{
+    /* width: 33%;
+    display: inline-block; */
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.card-img h4{
+    font-weight:bold;
+}
+.card-img:hover{
+    transform: scale(1.1 , 1.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card-img{
+    border: 2pc solid white;
+}
+.GALLERY{
+    background-color: #f1f1f1;
+    overflow: auto;
+    height: 170vh;
+}
+.Check{
+    margin-top: 80px;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.input-1{
+    background-color: #f1f1f1;
+    padding: 12px;
+}
+.input-1 span i{
+    font-size: 25px;
+    padding-right:20px ;
+    padding-left: 20px;
+}
+.input-1 span i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:red ;
+    color: white;
+}
+.address{
+    display: inline-block;
+    width: 49%;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mt-5{
+    margin-top: 20px;
+}
+.input-footer{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 2px solid rgb(128, 128, 212);
+}
+.input-footer:focus{
+    border: none;
+    border: 2px solid red;
+}
+.w-100{
+    width: 100%;
+}
+textarea{
+    border: 2px solid rgb(128, 128, 212);
+}
+.send-maseg{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    /* background-color: #212529; */
+    background-color: black;
+    height: 50vh;
+    color: white;
+}
+.main-footer{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.coshal-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.w-50{
+    width: 50%;
+}
+.border-footer{
+    border: 2px solid wheat;
+    margin-top: 20px;
+}
+.w-100{
+    width: 100%;
+}
+.ml{
+    margin-left: 20px;
+}
+.w-75{
+    width: 75%;
+}
+.input-foote input{
+    width: 60%;
+    height: 30px;
+}
+.Subscribe{
+    background-color: re;
+}

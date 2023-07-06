@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto 111px;
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-nav{
+    display: inline-block;
+    width: 49%;
+    color: white;
+}
+.pt{
+    padding-top: 25px;
+}
+.mt{
+    margin-top: 20px;
+}
+.logo-nav h2{
+    color: #ff305b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.logo-nav h2:hover{
+    text-decoration: underline;
+}
+.header-nav ul li{
+    display: inline-block;
+    padding-left: 17px;
+}
+.nav-home{
+    color: #ff305b;
+}
+.header-nav ul li:hover{
+    text-decoration: underline;
+    color: #ff305b;
+    cursor: pointer;
+}
+.auto{
+    /* margin: auto; */
+    padding-top: 230px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.element-1{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.element-1 h1 span{
+    color: #ff305b;
+}
+.border{
+    border: dotted 1px black;
+}
+.Name{
+    display: inline-block;
+    width: 48%;
+}
+.section-mt{
+    margin-top: 30px;
+}
+.btn{
+    border: none;
+    outline: none;
+    background-color: #ff305b;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #ec2403;
+}
+.btn span i{
+    margin-left: 7px;
+}
+.section-mt h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.section-bg{
+    background-color: #f1f1f1;
+   
+}
+.Services{
+    margin: auto 50px;
+    display: inline-block;
+    width: 15%;
+    padding: 15px;
+    cursor: pointer;
+    transition: width 2s;
+}
+.text-color{
+    color: #ff305b;
+}
+.text-center{
+    text-align: center;
+}
+.Services:hover{
+    background-color: white;
+    width: 20%;
+    
+}
+
+.Portfolio{
+    /* margin: auto 50px; */
+    display: inline-block;
+    width: 33%;
+    /* padding: 15px; */
+    cursor: pointer;
+    transition: width 2s;
+}
+img{
+    width: 100%;
+}
+.p-Our{
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.p-Our:hover{
+    border-bottom: 1px solid #ff305b;
+}
+.w-3{
+    width: 30%;
+}
+.Blog{
+    margin: auto 50px;
+    display: inline-block;
+    width: 24%;
+    padding: 15px;
+    cursor: pointer;
+    transition: width 2s;
+}
+.Contact{
+    margin: auto 290px;
+}
+.w-5{
+    width: 45%;
+}
+.h-input{
+    height: 30px;
+}
+.w-10{
+    width: 93%;
+}
+.Theme-fair{
+    color: #ff305b;
+}
+footer{
+    background-color: #333333;
+    height: 20vh;
+overflow: auto;
+color: white;
+}
+.soshal span{
+    width: 100px;
+    height: 100px;
+    /* background-color: white; */
+    border-radius: 50%;
+    color: white;
+}
+.soshal span i{
+    padding-left: 10px;
+}
+.top-footer{
+    width: 40%;
+}
+te{
+    width: 100%;
+}
+/* @media screen and (min-width:600px)and (max-width:800px){
+    .er{
+        width: 49%;
+    }
+}
+@media screen and (max-width:599px){
+    .er{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: tomato;
+    }
+} */
+
+@media screen and  (max-width:750px){
+    .element-1{
+        width: 100%;
+    }
+}
+@media screen and (min-width:600px)and (max-width:900px){
+    .Services{
+        width: 49%;
+    }
+}
+@media screen and  (max-width:500px){
+    .Services{
+        width: 100%;
+    }
+}
+@media screen and  (max-width:800px){
+    .Portfolio{
+        width: 45%;
+    }
+}
+@media screen and (min-width:600px)and (max-width:900px){
+    .Services{
+        width: 49%;
+    }
+}
+@media screen and (min-width:600px)and (max-width:900px){
+    .Blog{
+        width: 49%;
+    }
+}

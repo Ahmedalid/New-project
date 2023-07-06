@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #09c;
+    text-align: center;
+    background-image: url(img/drew-coffman-1872);
+    background-size: 100% 100%;
+    height: 80vh;
+}

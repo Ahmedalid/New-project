@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: auto 110px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.nav-item ul li{
+    list-style: none;
+  
+    width: 100%;
+ 
+}
+.nav-item ul li a{
+     text-decoration: none; 
+     color: black;
+     padding: 20px;
+}
+.nav-item ul {
+          display: flex;
+    justify-content: space-between;
+   
+}
+.nav-logo h1{
+    font-weight: bold;
+}

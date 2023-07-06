@@ -1,0 +1,12 @@
+.div{
+    width: 50%;
+    height: 50vh;
+    background-color: teal;
+ position: relative;
+}
+.test{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: tomato;
+}

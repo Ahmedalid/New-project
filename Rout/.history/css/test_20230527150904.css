@@ -1,0 +1,23 @@
+.test{
+    height: 600px;
+    width: 500px;
+    background-color: teal;
+    position: relative;
+    tra
+}
+img{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 500px;
+
+    background-color: tan;
+}
+.test:hover .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

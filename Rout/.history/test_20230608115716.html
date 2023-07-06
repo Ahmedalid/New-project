@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <style>
+        input[type="text"] {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+input[type="button"] {
+  font-size: 14px;
+}
+.input-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.map-wrapper {
+  width: 100%;
+  height: 250px;
+}
+.map-canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+    </style>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//maps.google.com/maps/api/js?libraries=places&key=AIzaSyAuqtG8XhmKQPGoYpFi9dqZmhZTDWGCxE0"></script>
+  </head>
+  <body>
+    <div class="input-wrapper">
+      <form id="input-form">
+        <input type="text" name=address" id="address" placeholder="住所を入力してください">
+        <input id="address-btn" type="submit" value="検索">
+      </form>
+                                                      
+    </div>
+    <div class="map-wrapper">
+    <div id="map-canvas" class="map-canvas"></div>
+    </div>
+    <script>
+        $(function() {
+
+var canvas = document.getElementById('map-canvas');
+
+var latlng = new google.maps.LatLng(35.681382, 139.766084);
+
+var mapOptions = {
+  zoom: 14,
+  center: latlng,
+  mapTypeId: google.maps.MapTypeId.ROADMAP,
+  scrollwheel: false
+};
+
+var mapObj = new google.maps.Map(canvas, mapOptions);
+var marker = [];
+var infoWindow = [];
+
+// マーカーデータ
+var markerData = [
+  {
+    position: new google.maps.LatLng(35.681382, 139.766484),
+    title: '店舗xxx',
+    content: '添付コンテンツX',
+        icon: '//drive.google.com/uc?export=view&id=1ir7dzJwVH6gpil5dP1-1fGdfsNPmnrPj',
+  },
+  {
+    position: new google.maps.LatLng(35.681282, 139.779044),
+    title: '店舗aaa',
+    content: '添付コンテンツA',
+        icon: '//drive.google.com/uc?export=view&id=1ir7dzJwVH6gpil5dP1-1fGdfsNPmnrPj',
+  },
+  {
+    position: new google.maps.LatLng(35.681282, 139.769044),
+    title: '店舗bbb',
+    content: '添付コンテンツB',
+        icon: '//drive.google.com/uc?export=view&id=1ir7dzJwVH6gpil5dP1-1fGdfsNPmnrPj',
+  },
+  {
+    position: new google.maps.LatLng(35.682382, 139.756084),
+    title: '店舗yyy',
+    content: '添付コンテンツY',
+        icon: '//drive.google.com/uc?export=view&id=1ir7dzJwVH6gpil5dP1-1fGdfsNPmnrPj',
+  }
+];
+
+// マーカーの表示
+for (i = 0; i< markerData.length; i++) {
+  marker[i] = new google.maps.Marker({
+    position: markerData[i].position,
+    map: mapObj,
+    title: markerData[i].title,
+    icon: markerData[i].icon,
+  });
+
+  infoWindow[i] = new google.maps.InfoWindow({ // 吹き出しの追加
+    content: '<div class="name">' + markerData[i]['title'] + '</div>'
+  });
+  
+  markerEvent(i);
+}
+
+function markerEvent(i) {
+  marker[i].addListener('click', function() {
+    infoWindow[i].open(mapObj, marker[i]);
+  });
+}
+
+$('#input-form').submit(function() {
+  setAddress($('#address').val());
+  return false;
+});
+
+// 住所検索
+function setAddress(address) {
+    var sad = address;
+    var geocoder = new google.maps.Geocoder();
+    geocoder.geocode({'address':sad}, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            mapObj.setCenter(results[0].geometry.location);
+        } else {
+            alert('住所から場所を特定できませんでした。');
+        }
+    });
+}
+
+});
+    </script>
+  </body>
+</html>

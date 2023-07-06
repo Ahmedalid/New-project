@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* margin: auto 70px; */
+}
+.who-we{
+    width: 47%;
+    display: inline-block;
+    
+    /* text-align: center; */
+}
+.container-body{
+    margin: auto 70px;
+}
+img{
+    width: 100%;
+}
+.pragraf{
+    margin-top: 20px;
+}
+.c{
+    margin-left: 55px;
+}
+.icone{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(211, 186, 186);
+    /* margin-top: 30px; */
+    padding: 5px;
+}
+.icone i{
+   margin-top: 6px;
+   margin-left: 8px;
+}
+.d-flex{
+    display: flex;
+}
+.mt{
+    margin-top: 49px;
+}
+.p-icone{
+    margin-top: 12px;
+    padding-left: 21px;
+}
+.text-center{
+    text-align: center;
+}
+.c h1{
+    margin-bottom: 20px;
+}
+.c p{
+    margin-bottom: 22px;
+
+}
+.Our-Location{
+    margin-top: 50px;
+    background-color: #f6efef;
+}
+.our-Baking h2 {
+    margin-top: 50px;
+}
+p{
+    margin-top: 10px;
+}
+.display{
+    width: 33%;
+    display: inline-block;
+}
+.Our-Locationnn{
+    margin-top: 10px;
+}
+.Information{
+    margin-top: 120px;
+}
+.icone-bg{
+    background-color: #8e7754;
+    color: white;
+}
+footer{
+    background-color: #403d38;
+    height: 60vh;
+    margin-top: 50px;
+}
+.container{
+    width: 24%;
+    display: inline-block;
+}
+.title-footer{
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.p-footer{
+    margin-top: 30px;
+}

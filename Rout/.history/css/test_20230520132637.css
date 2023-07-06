@@ -1,0 +1,16 @@
+.member{
+    background-color: teal;
+    width: 30%;
+    position: relative;
+}
+.member img{
+    width: 100%;
+}
+.member-cap{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+}

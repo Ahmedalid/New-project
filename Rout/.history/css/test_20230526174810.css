@@ -1,0 +1,101 @@
+/* .demo{
+    background-color: #09c;
+    width: 500px;
+    height: 600px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: name;
+}
+@keyframes name{
+    0%{background-color: red;}
+    10%{background-color: gray;}
+    20%{background-color: blue;}
+    50%{background-color: aqua;}
+    70%{background-color: black;}
+    100%{background-color: chartreuse;}
+} */
+
+
+/* img{
+    position: relative;
+   animation-name: name;
+   animation-duration:5s ;
+   top: 0;
+   left: 0;
+   animation-iteration-count: infinite;
+}
+@keyframes name{
+    0%{ top: 0; left: 0px;}
+    20%{ top: 0; left: 200px;}
+    40%{ top: 0; left: 300px;}
+    60%{ top: 0; left: 400px;}
+    100%{ top: 0; left: 1100px;transform: rotateY(0);}
+} */
+
+/* 
+
+.er{
+    display: inline-block;
+    width: 24%;
+}
+img{
+    width: 100%;
+}
+
+@media screen and (min-width:600px)and (max-width:800px){
+    .er{
+        width: 49%;
+    }
+}
+@media screen and (max-width:599px){
+    .er{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: tomato;
+    }
+} */
+.members{
+    background-color: grey;
+    height: 50vh;
+}
+.member{
+    width: 25%;
+    background-color: #09c;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    transition: all 1s 1s;
+}
+.member-caption{
+    background-color: rgba(0, 153, 204, 0.425);
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+}
+.member-caption h2{
+    background-color: rgba(0, 153, 204, 0.725);
+    padding: 5px 0;
+    position: relative;
+    left: 100%;
+}
+.member:hover .member-caption{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+.member:hover img{
+    transform: scale(1.1);
+
+}
+.member h2

@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.bg-img{
+    background-image: url(img/slider-02.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.home-contact{
+
+
+    color: white;
+
+}
+.layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1::after{
+    contain: "Walid";
+}

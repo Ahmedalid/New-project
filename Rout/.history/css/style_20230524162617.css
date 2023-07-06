@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto 50px;
+}
+.bg-img{
+    background-image: url(img/slider-02);
+    background-repeat: no-repeat;
+    ba
+}

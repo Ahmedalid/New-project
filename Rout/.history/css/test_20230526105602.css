@@ -1,0 +1,9 @@
+.demo{
+    background-color: #09c;
+    width: 500px;
+    height: 600px;
+}
+@keyframes name{
+    0%{background-color: red;}
+    0%{background-color: gray;}
+}

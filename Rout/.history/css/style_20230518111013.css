@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbear{
+    background-color: grey;
+    margin: auto 70px;
+}
+.nav-logo{
+    background-color: white;
+    width: 20%;
+    margin-top: 10px;
+    float: left;
+    margin: auto 70px;
+}
+.nav-menu{
+    background-color: white;
+    width: 50%;
+    float: right;
+}
+.nav-menu ul li{
+    width: 15%;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+.clear-fix{
+    clear: both;
+}
+.container-header{
+    color: white;
+    text-align: center;
+}
+.btn{
+    margin-top: 30px;
+    border: none;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+}
+.container-header p , .container-header h2{
+    padding-top: 20px;
+}
+.header{
+    /* width: 500px;
+    height: 600px; */
+    height: 100vh;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.who-we{
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    
+    /* text-align: center; */
+}
+.container-body{
+    margin: auto 70px;
+}
+img{
+    width: 100%;
+}
+.pragraf{
+    margin-top: 20px;
+}
+.c{
+    margin-left: 55px;
+}
+.icone{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(211, 186, 186);
+    /* margin-top: 30px; */
+    padding: 5px;
+}
+.icone i{
+   margin-top: 6px;
+   margin-left: 8px;
+}
+.d-flex{
+    display: flex;
+}
+.mt{
+    margin-top: 49px;
+}
+.p-icone{
+    margin-top: 12px;
+    padding-left: 21px;
+}
+.text-center{
+    text-align: center;
+}
+.c h1{
+    margin-bottom: 20px;
+}
+.c p{
+    margin-bottom: 22px;
+
+}
+.Our-Location{
+    margin-top: 50px;
+    background-color: #f6efef;
+}
+.our-Baking h2 {
+    margin-top: 50px;
+}
+p{
+    margin-top: 10px;
+}
+.display{
+    width: 33%;
+    display: inline-block;
+}
+.Our-Locationnn{
+    margin-top: 10px;
+}
+.Information{
+    margin-top: 120px;
+}
+.icone-bg{
+    background-color: #8e7754;
+    color: white;
+}
+footer{
+    background-color: #403d38;
+    height: 60vh;
+    margin-top: 50px;
+}
+.container{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+.title-footer{
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.p-footer{
+    margin-top: 30px;
+    
+}
+.img-logo-footer {
+background-color: #353330;
+height: 70vh;
+}
+.img-logo-footer img{
+    width: 25%;
+    height: 70%;
+    margin-top: 50px;
+}
+.coshal-logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.coshal-logo i{
+    margin-top:15px;
+}

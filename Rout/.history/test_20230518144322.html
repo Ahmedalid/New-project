@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class='popup-onload'>
+        <div class='cnt223'>
+        
+        <p>
+        We were affected by the fire next door and will remain closed until further notice.
+        <br/>
+        <br/>
+        <a href='' class='close'>Close</a>
+        </p>
+        </div>
+        </div>
+
+        <script>
+   $(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.show();
+overlay.appendTo(document.body);
+$('.popup-onload').show();
+$('.close').click(function(){
+$('.popup-onload').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+ 
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+        </script>
+        <script src="https://code.jquery.com/jquery-1.8.2.js"></script>
+
+</body>
+</html>

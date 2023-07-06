@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    pad
+}
+.bg-img{
+    background-image: url(img/slider-02.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}

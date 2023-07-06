@@ -1,0 +1,22 @@
+.one , .two , .three{
+    width: 200px;
+    height: 200px;
+}
+.one {
+    background-color: teal;
+    position: absolute;
+    top: 0px;
+    
+}
+.two{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 10;
+}
+.three{
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,50 @@
+/* .demo{
+    background-color: #09c;
+    width: 500px;
+    height: 600px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: name;
+}
+@keyframes name{
+    0%{background-color: red;}
+    10%{background-color: gray;}
+    20%{background-color: blue;}
+    50%{background-color: aqua;}
+    70%{background-color: black;}
+    100%{background-color: chartreuse;}
+} */
+
+
+/* img{
+    position: relative;
+   animation-name: name;
+   animation-duration:5s ;
+   top: 0;
+   left: 0;
+   animation-iteration-count: infinite;
+}
+@keyframes name{
+    0%{ top: 0; left: 0px;}
+    20%{ top: 0; left: 200px;}
+    40%{ top: 0; left: 300px;}
+    60%{ top: 0; left: 400px;}
+    100%{ top: 0; left: 1100px;transform: rotateY(0);}
+} */
+
+
+
+.er{
+    display: inline-block;
+    width: 24%;
+}
+img{
+    width: 100%;
+}
+@media sc
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: tomato;
+    }
+}

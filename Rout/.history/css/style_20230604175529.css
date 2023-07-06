@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: auto 110px;
+}
+.nav-item ul li{
+    list-style: none;
+ 
+}
+.nav-item ul li a{
+     text-decoration: none;
+}

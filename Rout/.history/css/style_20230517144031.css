@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.who-we{
+    
+    
+    width: 49%;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}

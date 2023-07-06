@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: auto 70px;
+}
+.who-we{
+    width: 49%;
+    display: inline-block;
+    /* text-align: center; */
+}
+img{
+    width: 100%;
+}
+.pragraf{
+    margin-top: 20px;
+}
+.c{
+    margin-left: 20px;
+}
+.icone{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid red;
+    /* margin-top: 30px; */
+    padding: 5px;
+}
+.icone i{
+   margin-top: 6px;
+   margin-left: 10px;
+}
+.d-flex{
+    display: flex;
+}
+.mt{
+    margin-top: 40px;
+}
+.p-icone{
+    margin-top: 12px;
+    padding-left: 21px;
+}

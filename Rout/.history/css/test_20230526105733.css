@@ -1,0 +1,14 @@
+.demo{
+    background-color: #09c;
+    width: 500px;
+    height: 600px;
+    an
+}
+@keyframes name{
+    0%{background-color: red;}
+    10%{background-color: gray;}
+    20%{background-color: blue;}
+    50%{background-color: aqua;}
+    70%{background-color: black;}
+    100%{background-color: chartreuse;}
+}

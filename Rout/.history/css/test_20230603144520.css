@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.bg-img{
+    background-image: url(img/slider-02.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.home-contact{
+
+
+    color: white;
+
+}
+.layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name::after{
+    content: "W";
+    animation-name: as;
+}
+@keyframes as{
+    0%{content: "Wa";}
+    10%{content: "Wal";}
+    20%{content: "Wale";}
+    30%{content: "Walee";}
+    50%{content: "Wa";}
+    60%{content: "Wal";}
+    70%{content: "Wale";}
+    80%{content: "Wale";}
+    90%{content: "Waleed";}
+    100%{content: "Waleed";}
+}

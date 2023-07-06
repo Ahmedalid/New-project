@@ -1,0 +1,13 @@
+.one , .two , .three{
+    width: 200px;
+    height: 200px;
+}
+.one {
+    background-color: teal;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: orange;
+}
